@@ -1,0 +1,51 @@
+hate_speech/
+│
+├── components/
+│   ├── __init__.py
+│   ├── data_ingestion.py          # Data loading, splitting, validation
+│   ├── data_transformation.py     # Cleaning, tokenization, vectorization
+│   ├── model_trainer.py           # Model training logic
+│   ├── model_evaluation.py        # Metrics, evaluation, comparison
+│   └── model_pusher.py            # Push model to registry / cloud
+│
+├── configuration/
+│   └── gcloud_syncer.py            # Sync artifacts with GCP
+│
+├── constant/
+│   ├── __init__.py
+│   ├── config_entity.py           # Config schema (paths, params)
+│   └── artifact_entity.py         # Output artifact definitions
+│
+├── entity/
+│   └── __init__.py                 # Dataset & model entities
+│
+├── exception/
+│   └── __init__.py                 # Custom exception handling
+│
+├── logger/
+│   └── __init__.py                 # Central logging config
+│
+├── pipeline/
+│   ├── train_pipeline.py           # End-to-end training pipeline
+│   └── prediction_pipeline.py      # Inference pipeline
+│
+├── ml/
+│   ├── __init__.py
+│   └── model.py                    # Model architecture & predict()
+│
+├── app.py                          # API entry point (FastAPI/Flask)
+├── demo.py                         # Local testing / demo runner
+├── requirements.txt                # Project dependencies
+├── Dockerfile                      # Container recipe
+├── setup.py                        # Package setup
+└── .dockerignore                   # Docker ignore rules
+
+components/ → What happens (steps in ML lifecycle)
+
+pipeline/ → When it happens (execution order)
+
+entity/ & constant/ → What flows between steps
+
+ml/ → How predictions are made
+
+app.py → How the outside world talks to your model
