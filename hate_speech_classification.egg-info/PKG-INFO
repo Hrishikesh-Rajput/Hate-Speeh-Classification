@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: hate-speech-classification
+Version: 0.0.1
+Author: 0
+Author-email: business.hrishikeshrajput@gmail.com
+License-File: LICENCE.yaml
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
