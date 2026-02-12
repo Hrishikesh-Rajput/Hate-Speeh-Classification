@@ -22,13 +22,15 @@ class S3Sync:
     def __init__(self):
         self.s3 = boto3.client("s3")
 
+#Dowbload file from S3
     def sync_folder_from_s3(self, bucket, key, destination):
         os.makedirs(destination, exist_ok=True)
         local_path = os.path.join(destination, os.path.basename(key))
 
         self.s3.download_file(bucket, key, local_path)
         return local_path
-
+#upload file to S3 from local
     def sync_folder_to_s3(self, bucket, key, filepath):
         self.s3.upload_file(filepath, bucket, key)
+
 

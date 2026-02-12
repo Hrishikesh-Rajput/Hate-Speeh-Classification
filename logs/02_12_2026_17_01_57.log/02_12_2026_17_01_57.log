@@ -1,0 +1,212 @@
+[ 2026-02-12 17:01:58,028 ] root - INFO - Entered the run_pipeline method of TrainPipeline class
+[ 2026-02-12 17:01:58,030 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2026-02-12 17:01:58,030 ] root - INFO - Getting the data from S3 Storage bucket
+[ 2026-02-12 17:01:58,030 ] botocore.hooks - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[ 2026-02-12 17:01:58,033 ] botocore.hooks - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+[ 2026-02-12 17:01:58,034 ] botocore.hooks - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[ 2026-02-12 17:01:58,034 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[ 2026-02-12 17:01:58,034 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[ 2026-02-12 17:01:58,034 ] botocore.hooks - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[ 2026-02-12 17:01:58,034 ] botocore.hooks - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[ 2026-02-12 17:01:58,042 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[ 2026-02-12 17:01:58,042 ] botocore.hooks - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[ 2026-02-12 17:01:58,042 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[ 2026-02-12 17:01:58,042 ] botocore.hooks - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[ 2026-02-12 17:01:58,134 ] botocore.utils - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+[ 2026-02-12 17:01:58,134 ] botocore.credentials - DEBUG - Looking for credentials via: env
+[ 2026-02-12 17:01:58,134 ] botocore.credentials - DEBUG - Looking for credentials via: assume-role
+[ 2026-02-12 17:01:58,134 ] botocore.credentials - DEBUG - Looking for credentials via: assume-role-with-web-identity
+[ 2026-02-12 17:01:58,134 ] botocore.credentials - DEBUG - Looking for credentials via: sso
+[ 2026-02-12 17:01:58,134 ] botocore.credentials - DEBUG - Looking for credentials via: shared-credentials-file
+[ 2026-02-12 17:01:58,141 ] botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[ 2026-02-12 17:01:58,145 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\endpoints.json
+[ 2026-02-12 17:01:58,176 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\sdk-default-configuration.json
+[ 2026-02-12 17:01:58,176 ] botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002315CB93670>
+[ 2026-02-12 17:01:58,662 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+[ 2026-02-12 17:01:58,677 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+[ 2026-02-12 17:01:58,835 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+[ 2026-02-12 17:01:58,859 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\partitions.json
+[ 2026-02-12 17:01:58,860 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002315CB08430>
+[ 2026-02-12 17:01:58,860 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000023159D6F0D0>
+[ 2026-02-12 17:01:58,866 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002315CB081F0>
+[ 2026-02-12 17:01:58,866 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_service
+[ 2026-02-12 17:01:58,866 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_global
+[ 2026-02-12 17:01:58,866 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_service
+[ 2026-02-12 17:01:58,866 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_global
+[ 2026-02-12 17:01:58,866 ] botocore.configprovider - DEBUG - No configured endpoint found.
+[ 2026-02-12 17:01:58,870 ] botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+[ 2026-02-12 17:01:58,875 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\botocore\data\_retry.json
+[ 2026-02-12 17:01:58,875 ] botocore.client - DEBUG - Registering retry handlers for service: s3
+[ 2026-02-12 17:01:58,875 ] botocore.utils - DEBUG - Registering S3 region redirector handler
+[ 2026-02-12 17:01:58,878 ] botocore.utils - DEBUG - Registering S3Express Identity Resolver
+[ 2026-02-12 17:01:58,878 ] root - INFO - Entered the initiate_data_ingestion method of Data ingestion class
+[ 2026-02-12 17:01:58,878 ] root - INFO - Starting data ingestion from S3...
+[ 2026-02-12 17:01:58,880 ] boto3.s3.transfer - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False
+[ 2026-02-12 17:01:58,880 ] boto3.s3.transfer - DEBUG - Using default client. pid: 12876, thread: 2164
+[ 2026-02-12 17:01:58,880 ] s3transfer.utils - DEBUG - Acquiring 0
+[ 2026-02-12 17:01:58,882 ] s3transfer.tasks - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000002315E13DFA0>}) about to wait for the following futures []
+[ 2026-02-12 17:01:58,882 ] s3transfer.tasks - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000002315E13DFA0>}) done waiting for dependent futures
+[ 2026-02-12 17:01:58,882 ] s3transfer.tasks - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000002315E13DFA0>}) with kwargs {'client': <botocore.client.S3 object at 0x000002315E0CF8B0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000002315E13D040>, 'osutil': <s3transfer.utils.OSUtils object at 0x000002315E13D070>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000002315E13D310>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000002315E13DFA0>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x000002315E13D3D0>}
+[ 2026-02-12 17:01:58,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000002315CBB1F70>
+[ 2026-02-12 17:01:58,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000002315CBB1EE0>
+[ 2026-02-12 17:01:58,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002315CBBAEE0>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002315CC7EAC0>>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000002315CBB1D30>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x000002315CBBC550>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002315CBBC0D0>
+[ 2026-02-12 17:01:58,884 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:01:58,884 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'hate-speech-ml-data', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'data/raw/dataset.zip', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[ 2026-02-12 17:01:58,886 ] botocore.regions - DEBUG - Endpoint provider result: https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com
+[ 2026-02-12 17:01:58,886 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-02-12 17:01:58,886 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000002315CBB9280>
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002315E12BEB0>>
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x000002315CBB18B0>
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000002315CBBA5E0>
+[ 2026-02-12 17:01:58,886 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/data/raw/dataset.zip', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.42.45 md/Botocore#1.42.45 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.9.25 md/pyimpl#CPython m/Z,G,n,b,D cfg/retry-mode#legacy Botocore/1.42.45'}, 'body': b'', 'auth_path': '/hate-speech-ml-data/data/raw/dataset.zip', 'url': 'https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com/data/raw/dataset.zip', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002315E0CFC40>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'hate-speech-ml-data', 'params': {'Bucket': 'hate-speech-ml-data', 'Key': 'data/raw/dataset.zip'}}, 'input_params': {'Bucket': 'hate-speech-ml-data', 'Key': 'data/raw/dataset.zip'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000002315C773EE0>
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002315E0CF850>>
+[ 2026-02-12 17:01:58,886 ] botocore.hooks - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000002315CBB1AF0>
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x000002315CBBC040>
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002315CBBC5E0>
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002315E12BEB0>>
+[ 2026-02-12 17:01:58,888 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-02-12 17:01:58,888 ] botocore.auth - DEBUG - CanonicalRequest:
+HEAD
+/data/raw/dataset.zip
+
+host:hate-speech-ml-data.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260212T113158Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-02-12 17:01:58,888 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260212T113158Z
+20260212/eu-north-1/s3/aws4_request
+8af091cf05285f06af489d3824bca80fd6585ae4978f31051c59f0bf9d9c4693
+[ 2026-02-12 17:01:58,888 ] botocore.auth - DEBUG - Signature:
+870995b987d440668c132523adf3da61bdedadd2b5309ceaf1e53313d2633f86
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002315E12B8E0>>
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000002315C93BB80>
+[ 2026-02-12 17:01:58,888 ] botocore.hooks - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x000002315CBBAE50>
+[ 2026-02-12 17:01:58,892 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com/data/raw/dataset.zip, headers={'User-Agent': b'Boto3/1.42.45 md/Botocore#1.42.45 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.9.25 md/pyimpl#CPython m/Z,G,n,b,D cfg/retry-mode#legacy Botocore/1.42.45', 'X-Amz-Date': b'20260212T113158Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA3V3OVDEVXD6VDGKW/20260212/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=870995b987d440668c132523adf3da61bdedadd2b5309ceaf1e53313d2633f86', 'amz-sdk-invocation-id': b'1bc2728e-1a2f-4764-8327-bdd73fc0af79', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-02-12 17:01:58,892 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\certifi\cacert.pem
+[ 2026-02-12 17:01:58,892 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hate-speech-ml-data.s3.eu-north-1.amazonaws.com:443
+[ 2026-02-12 17:02:00,541 ] urllib3.connectionpool - DEBUG - https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com:443 "HEAD /data/raw/dataset.zip HTTP/1.1" 200 0
+[ 2026-02-12 17:02:00,541 ] botocore.hooks - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x000002315CBBC3A0>
+[ 2026-02-12 17:02:00,541 ] botocore.hooks - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x000002315CBBC1F0>
+[ 2026-02-12 17:02:00,541 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': '9fixF6uyA2NSVAXDaQnueozy0HlGiG2Nf0+Ig3U8dQx4wRwHML9GQlzqI0JA5+R3ZVLMCptmDnQ=', 'x-amz-request-id': '2FJR8ZFBNCMQT8F9', 'Date': 'Thu, 12 Feb 2026 11:32:03 GMT', 'Last-Modified': 'Tue, 10 Feb 2026 12:42:51 GMT', 'ETag': '"88d6a96d05147db1806f6dfc6ec64f93"', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'application/zip', 'Content-Length': '2323493', 'Server': 'AmazonS3'}
+[ 2026-02-12 17:02:00,541 ] botocore.parsers - DEBUG - Response body:
+b''
+[ 2026-02-12 17:02:00,543 ] botocore.hooks - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x000002315CBBC4C0>
+[ 2026-02-12 17:02:00,545 ] botocore.hooks - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002315E12BE20>
+[ 2026-02-12 17:02:00,545 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-02-12 17:02:00,545 ] botocore.hooks - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:02:00,545 ] s3transfer.futures - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'hate-speech-ml-data', 'key': 'data/raw/dataset.zip', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000002315E13D310> for transfer request: 0.
+[ 2026-02-12 17:02:00,545 ] s3transfer.utils - DEBUG - Acquiring 0
+[ 2026-02-12 17:02:00,545 ] s3transfer.tasks - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'hate-speech-ml-data', 'key': 'data/raw/dataset.zip', 'extra_args': {}}) about to wait for the following futures []
+[ 2026-02-12 17:02:00,547 ] s3transfer.utils - DEBUG - Releasing acquire 0/None
+[ 2026-02-12 17:02:00,547 ] s3transfer.tasks - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'hate-speech-ml-data', 'key': 'data/raw/dataset.zip', 'extra_args': {}}) done waiting for dependent futures
+[ 2026-02-12 17:02:00,547 ] s3transfer.tasks - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'hate-speech-ml-data', 'key': 'data/raw/dataset.zip', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000002315E0CF8B0>, 'bucket': 'hate-speech-ml-data', 'key': 'data/raw/dataset.zip', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x000002315E1424C0>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000002315CBB1F70>
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000002315CBB1EE0>
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002315CBBAEE0>
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002315CC7EAC0>>
+[ 2026-02-12 17:02:00,547 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000002315CBB1D30>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x000002315CBBC550>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002315CBBC0D0>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:02:00,548 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'hate-speech-ml-data', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'data/raw/dataset.zip', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[ 2026-02-12 17:02:00,548 ] botocore.regions - DEBUG - Endpoint provider result: https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com
+[ 2026-02-12 17:02:00,548 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-02-12 17:02:00,548 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000002315CBB9280>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002315E12BEB0>>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000002315CBB18B0>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000002315CBBA5E0>
+[ 2026-02-12 17:02:00,548 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/data/raw/dataset.zip', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.42.45 md/Botocore#1.42.45 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.9.25 md/pyimpl#CPython m/Z,G,n,b,D cfg/retry-mode#legacy Botocore/1.42.45'}, 'body': b'', 'auth_path': '/hate-speech-ml-data/data/raw/dataset.zip', 'url': 'https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com/data/raw/dataset.zip', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002315E0CFC40>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'hate-speech-ml-data', 'params': {'Bucket': 'hate-speech-ml-data', 'Key': 'data/raw/dataset.zip', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'hate-speech-ml-data', 'Key': 'data/raw/dataset.zip'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x000002315C773EE0>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002315E0CF850>>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000002315CBB1AF0>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000002315CBBC040>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002315CBBC5E0>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002315E12BEB0>>
+[ 2026-02-12 17:02:00,548 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-02-12 17:02:00,548 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/data/raw/dataset.zip
+
+host:hate-speech-ml-data.s3.eu-north-1.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260212T113200Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-02-12 17:02:00,548 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260212T113200Z
+20260212/eu-north-1/s3/aws4_request
+5e94e59b052d810468c7e22139e3b7ef6ba9c7ed52d5f23daeeefdb44a04f6e3
+[ 2026-02-12 17:02:00,548 ] botocore.auth - DEBUG - Signature:
+be68c120bfcc3f20b0f99e0c0665410cf87f566e15487865fb2b2e3b5f7d899a
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002315E12B8E0>>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x000002315C93BB80>
+[ 2026-02-12 17:02:00,548 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000002315CBBAE50>
+[ 2026-02-12 17:02:00,548 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com/data/raw/dataset.zip, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.42.45 md/Botocore#1.42.45 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.9.25 md/pyimpl#CPython m/Z,G,n,b,D cfg/retry-mode#legacy Botocore/1.42.45', 'X-Amz-Date': b'20260212T113200Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA3V3OVDEVXD6VDGKW/20260212/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=be68c120bfcc3f20b0f99e0c0665410cf87f566e15487865fb2b2e3b5f7d899a', 'amz-sdk-invocation-id': b'61f58821-4da5-4ba6-8616-89dfd24d7768', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-02-12 17:02:00,548 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\busin\miniconda3\envs\hate_tf\lib\site-packages\certifi\cacert.pem
+[ 2026-02-12 17:02:00,856 ] urllib3.connectionpool - DEBUG - https://hate-speech-ml-data.s3.eu-north-1.amazonaws.com:443 "GET /data/raw/dataset.zip HTTP/1.1" 200 2323493
+[ 2026-02-12 17:02:00,857 ] botocore.httpchecksum - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[ 2026-02-12 17:02:00,857 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x000002315CBBC3A0>
+[ 2026-02-12 17:02:00,857 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x000002315CBBC1F0>
+[ 2026-02-12 17:02:00,857 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'OkGXA8vMyLC0yEvZHLBZncPpyHe1bcs74yk/K1+7PMNS9nsabe3y3lxmz96iRtlziLiNFtJx7+A=', 'x-amz-request-id': 'S7R4DR7CQ9VQT7VW', 'Date': 'Thu, 12 Feb 2026 11:32:04 GMT', 'Last-Modified': 'Tue, 10 Feb 2026 12:42:51 GMT', 'ETag': '"88d6a96d05147db1806f6dfc6ec64f93"', 'x-amz-checksum-crc64nvme': 'qFh2dHkqqcw=', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'application/zip', 'Content-Length': '2323493', 'Server': 'AmazonS3'}
+[ 2026-02-12 17:02:00,857 ] botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x000002315E1D59D0>
+[ 2026-02-12 17:02:00,857 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x000002315CBBC4C0>
+[ 2026-02-12 17:02:00,857 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002315E12BE20>
+[ 2026-02-12 17:02:00,857 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-02-12 17:02:00,859 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002315E12BEE0>>
+[ 2026-02-12 17:02:01,872 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+[ 2026-02-12 17:02:01,872 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+[ 2026-02-12 17:02:01,872 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 0}
+[ 2026-02-12 17:02:02,116 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 262144}) about to wait for the following futures []
+[ 2026-02-12 17:02:02,116 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 262144}) done waiting for dependent futures
+[ 2026-02-12 17:02:02,116 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 262144}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 262144}
+[ 2026-02-12 17:02:02,545 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 524288}) about to wait for the following futures []
+[ 2026-02-12 17:02:02,545 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 524288}) done waiting for dependent futures
+[ 2026-02-12 17:02:02,545 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 524288}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 524288}
+[ 2026-02-12 17:02:02,970 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 786432}) about to wait for the following futures []
+[ 2026-02-12 17:02:02,970 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 786432}) done waiting for dependent futures
+[ 2026-02-12 17:02:02,970 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 786432}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 786432}
+[ 2026-02-12 17:02:03,210 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1048576}) about to wait for the following futures []
+[ 2026-02-12 17:02:03,210 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1048576}) done waiting for dependent futures
+[ 2026-02-12 17:02:03,210 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 1048576}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 1048576}
+[ 2026-02-12 17:02:03,643 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1310720}) about to wait for the following futures []
+[ 2026-02-12 17:02:03,643 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1310720}) done waiting for dependent futures
+[ 2026-02-12 17:02:03,643 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 1310720}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 1310720}
+[ 2026-02-12 17:02:03,879 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1572864}) about to wait for the following futures []
+[ 2026-02-12 17:02:03,879 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1572864}) done waiting for dependent futures
+[ 2026-02-12 17:02:03,879 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 1572864}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 1572864}
+[ 2026-02-12 17:02:04,298 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1835008}) about to wait for the following futures []
+[ 2026-02-12 17:02:04,298 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 1835008}) done waiting for dependent futures
+[ 2026-02-12 17:02:04,298 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 1835008}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 1835008}
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 2097152}) about to wait for the following futures []
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - IOWriteTask(transfer_id=0, {'offset': 2097152}) done waiting for dependent futures
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 2097152}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'offset': 2097152}
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\dataset.zip'}) about to wait for the following futures []
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\dataset.zip'}) done waiting for dependent futures
+[ 2026-02-12 17:02:04,532 ] s3transfer.tasks - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\dataset.zip'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000002315E1426A0>, 'final_filename': 'D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\dataset.zip', 'osutil': <s3transfer.utils.OSUtils object at 0x000002315E13D070>}
+[ 2026-02-12 17:02:04,534 ] s3transfer.utils - DEBUG - Releasing acquire 0/None
+[ 2026-02-12 17:02:04,534 ] root - INFO - Fetched the data from s3 bucket
+[ 2026-02-12 17:02:04,534 ] root - INFO - Unzipping dataset...
+[ 2026-02-12 17:02:04,632 ] root - INFO - Exited the unzip_and_clean method of Data ingestion class
+[ 2026-02-12 17:02:04,632 ] root - INFO - Unzipped file and split into train and valid
+[ 2026-02-12 17:02:04,632 ] root - INFO - Exited the initiate_data_ingestion method of Data ingestion class
+[ 2026-02-12 17:02:04,632 ] root - INFO - Data ingestion artifact: DataIngestionArtifacts(imbalance_data_file_path='D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\imbalance_data.csv', raw_data_file_path='D:\\CDaC Projectws\\Hate Speeh Classification\\artifacts\\02_12_2026_17_01_58\\DataIngetionArtifacts\\raw_data.csv')
+[ 2026-02-12 17:02:04,632 ] root - INFO - Got the train and valid from S3 Storage
+[ 2026-02-12 17:02:04,632 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2026-02-12 17:02:04,639 ] root - INFO - Exited the run_pipeline method of TrainPipeline class
