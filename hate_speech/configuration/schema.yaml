@@ -1,0 +1,10 @@
+columns:
+  tweet: object
+  class: int64
+
+target_column: class
+
+numerical_columns: []
+
+categorical_columns: []
+

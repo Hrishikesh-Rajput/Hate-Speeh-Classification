@@ -34,3 +34,10 @@ class DataIngestionConfig:
             self.DATA_INGESTION_ARTIFACTS_DIR,
             self.ZIP_FILE_NAME
         )
+
+@dataclass
+class DataValidationConfig:
+    schema_file_path: str
+    train_file_path: str
+    validation_status_file_path: str
+
