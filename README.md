@@ -8,6 +8,7 @@
 -pipline 
 -app.py
 
+<img width="524" height="977" alt="Screenshot 2026-02-13 134316" src="https://github.com/user-attachments/assets/f562f479-8d20-41f4-bcac-6d3d16ff2652" />
 
 
 
